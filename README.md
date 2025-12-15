@@ -164,6 +164,15 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 Модель демонстрирует глубокое понимание принципов проектирования баз данных и готова к промышленной эксплуатации. Все поставленные задачи решены оптимальным образом.
 
+# Лабораторная работа №2
+
+## Таблицы
+
+![ученик](https://github.com/user-attachments/assets/7c9bf333-b476-4571-bc90-117d81f706f9)
+
+![предмет](https://github.com/user-attachments/assets/bb25c673-5b8a-4e7d-a7e3-7160b6166dd1)
+
+![успеваемость](https://github.com/user-attachments/assets/cc54712f-c66a-42b2-bbfe-5d6aa6b626bd)
 
 
 
