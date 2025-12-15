@@ -62,27 +62,24 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
     -- Таблица учеников
     CREATE TABLE Ученик (
-        ID_ученика INT PRIMARY KEY AUTO_INCREMENT,
+        ID_ученика INT PRIMARY KEY,
         Фамилия VARCHAR(50) NOT NULL,
         Имя VARCHAR(50) NOT NULL,
         Домашний_адрес VARCHAR(200),
         Телефон VARCHAR(20),
         ФИО_матери VARCHAR(100),
-        ФИО_отца VARCHAR(100),
-        INDEX idx_фамилия (Фамилия),
-        INDEX idx_имя (Имя)
-    ) ENGINE=InnoDB;
+        ФИО_отца VARCHAR(100)
+    );
 
     -- Таблица предметов
     CREATE TABLE Предмет (
-        ID_предмета INT PRIMARY KEY AUTO_INCREMENT,
-        Название_предмета VARCHAR(100) NOT NULL UNIQUE,
-        INDEX idx_название (Название_предмета)
-    ) ENGINE=InnoDB;
+        ID_предмета INT PRIMARY KEY,
+        Название_предмета VARCHAR(100) NOT NULL UNIQUE
+    );
 
     -- Таблица успеваемости
     CREATE TABLE Успеваемость (
-        ID_записи INT PRIMARY KEY AUTO_INCREMENT,
+        ID_записи INT PRIMARY KEY,
         ID_ученика INT NOT NULL,
         ID_предмета INT NOT NULL,
         Оценка INT CHECK (Оценка BETWEEN 1 AND 5),
@@ -93,17 +90,8 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
         FOREIGN KEY (ID_ученика) REFERENCES Ученик(ID_ученика) 
             ON DELETE RESTRICT ON UPDATE CASCADE,
         FOREIGN KEY (ID_предмета) REFERENCES Предмет(ID_предмета) 
-            ON DELETE RESTRICT ON UPDATE CASCADE,
-    
-        -- Индексы для оптимизации запросов
-        INDEX idx_дата (Дата),
-        INDEX idx_оценка (Оценка),
-        INDEX idx_пропуски (Пропуски),
-        INDEX idx_ученик_предмет (ID_ученика, ID_предмета),
-    
-        -- Уникальность для избежания дублирования
-        UNIQUE KEY uk_ученик_предмет_дата (ID_ученика, ID_предмета, Дата)
-    ) ENGINE=InnoDB;
+            ON DELETE RESTRICT ON UPDATE CASCADE
+    );
 
 ## Ответ DeepSeek
 
@@ -173,6 +161,7 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 ![предмет](https://github.com/user-attachments/assets/bb25c673-5b8a-4e7d-a7e3-7160b6166dd1)
 
 ![успеваемость](https://github.com/user-attachments/assets/cc54712f-c66a-42b2-bbfe-5d6aa6b626bd)
+
 
 
 
