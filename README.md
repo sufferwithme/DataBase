@@ -144,7 +144,7 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
     JOIN Предмет П ON Ус.ID_предмета = П.ID_предмета
     WHERE Ус.Оценка = 5
     GROUP BY У.ID_ученика, П.ID_предмета
-    HAVING COUNT(*) > 3  -- заданное число пятерок
+    HAVING COUNT(*) > 0  -- заданное число пятерок
     ORDER BY У.Фамилия, У.Имя, П.Название_предмета;
 
 ### Оценка выполнения
@@ -170,5 +170,18 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 ![заполнение3](https://github.com/user-attachments/assets/875a77c2-592d-45c5-9e6d-1d32cc0817e5)
 
+## SELECT-запросы с JOIN
+
+# Запрос 1. Список учеников с двойками или пропусками за период
+
+![запрос1](https://github.com/user-attachments/assets/e0a665f8-7615-45c1-a23a-7620c2aaa8c5)
+
+# Запрос 2. Список учеников с количеством пятерок больше заданного
+
+![запрос2](https://github.com/user-attachments/assets/b08ea963-472a-4728-b8b7-1a880effe0d9)
+
+# Запрос 3. Средний балл учеников
+
+![запрос3](https://github.com/user-attachments/assets/575c991d-9088-42e1-8620-64e39f681437)
 
 
