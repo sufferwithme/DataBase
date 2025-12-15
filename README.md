@@ -184,5 +184,44 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 ![запрос3](https://github.com/user-attachments/assets/575c991d-9088-42e1-8620-64e39f681437)
 
+# Лабораторная работа №3
+
+## Создание представлений
+
+### Представление 1. Полная информация об успеваемости
+
+![представление1](https://github.com/user-attachments/assets/030b7cc2-0f4e-40f7-bc12-5a09d9a0de3d)
+
+### Представление 2. Рейтинг предметов
+
+![представление2](https://github.com/user-attachments/assets/de6f11f7-7bfc-4210-92fa-ab24915b110b)
+
+## Создание хранимых процедур
+
+### Процедура 1. Подробная статистика предмета
+
+![процедура1](https://github.com/user-attachments/assets/e28b5f95-f97a-4ecd-8a74-c8fe5e60e47d)
+
+#### Проверка
+
+![проверка1](https://github.com/user-attachments/assets/8f11cff4-68c5-4175-8c05-1b764b46aa05)
+
+### С изменениями данных
+
+### Процедура 2. Добавление нового ученика
+
+![процедура2](https://github.com/user-attachments/assets/0ba259bc-3f3e-43bf-95fd-dd561d184ec4)
+
+#### Проверка
+
+![проверка2](https://github.com/user-attachments/assets/87eec182-f51a-4d73-9792-8b7718ca81ed)
+
+### Процедура 3. Добавление нового предмета
+
+![процедура3](https://github.com/user-attachments/assets/2867b2b4-84f4-47cc-ae0a-aa6ee06120d9)
+
+#### Проверка
+
+![проверка3](https://github.com/user-attachments/assets/af0dcc8f-7e4a-4ae7-a113-032c3824d931)
 
 
