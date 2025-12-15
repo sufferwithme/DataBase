@@ -162,6 +162,13 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 ![успеваемость](https://github.com/user-attachments/assets/cc54712f-c66a-42b2-bbfe-5d6aa6b626bd)
 
+## Заполнение таблиц данными
+
+![заполнение1](https://github.com/user-attachments/assets/79db3190-659e-426a-8eb2-4f25c6594bbd)
+
+![заполнение2](https://github.com/user-attachments/assets/e9d8654d-8c3b-407d-8367-593cbea91b94)
+
+![заполнение3](https://github.com/user-attachments/assets/875a77c2-592d-45c5-9e6d-1d32cc0817e5)
 
 
 
