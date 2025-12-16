@@ -254,3 +254,24 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 После оптимизации время выполнение запроса сократилось в ~2.4 раза
 
+# Лабораторная работа №5
+
+## Триггер каскадного удаления успеваемости при удалении ученика
+
+![триггер1](https://github.com/user-attachments/assets/d7a374ed-4b58-4024-aa6d-fb9ca85e4822)
+
+![триггер2](https://github.com/user-attachments/assets/08c07662-4ebf-4dc5-8eba-f93e5b39907b)
+
+## Создание таблицы аудита
+
+![таблица](https://github.com/user-attachments/assets/7865bf27-b974-487a-bc5f-042d3657dbd6)
+
+## Создание функции и триггера аудита
+
+![триггер3](https://github.com/user-attachments/assets/67263407-86a3-4265-a73c-68926cc48201)
+
+![триггер4](https://github.com/user-attachments/assets/18c097d0-cf58-4def-a280-3afea6a3da3a)
+
+## Проверка
+
+![триггер4](https://github.com/user-attachments/assets/18c097d0-cf58-4def-a280-3afea6a3da3a)
