@@ -274,4 +274,5 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 ## Проверка
 
-![триггер4](https://github.com/user-attachments/assets/18c097d0-cf58-4def-a280-3afea6a3da3a)
+![проверка](https://github.com/user-attachments/assets/ebc83f82-0692-438c-af54-8bb81d78057c)
+
