@@ -224,4 +224,33 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 ![проверка3](https://github.com/user-attachments/assets/af0dcc8f-7e4a-4ae7-a113-032c3824d931)
 
+# Лабораторная работа №4
+
+## Генераторы
+
+### Генератор учеников
+
+![генератор1](https://github.com/user-attachments/assets/277bcf32-aa17-4158-b5ef-d320cef1f72e)
+
+### Генератор предметов
+
+![генератор2](https://github.com/user-attachments/assets/3af12d0d-2762-4cb2-bc72-4ea48aa2f6b6)
+
+### Генератор успеваемости
+
+![генератор3](https://github.com/user-attachments/assets/68c62d3d-ea55-4c05-8f91-4882cb17ca2e)
+
+#### Генерация 20000 записей
+
+![20000](https://github.com/user-attachments/assets/89f20a77-af41-451f-85a1-cb5de41a9767)
+
+## Оптимизация
+
+![до](https://github.com/user-attachments/assets/baa6b5f5-bb55-4071-9206-b4188e05e445)
+
+Время выполнения запроса до оптимизации является 14.440 ms, теперь оптимизируем наш запрос
+
+![после](https://github.com/user-attachments/assets/b3f736a9-435d-48aa-a4d9-372cff6da41c)
+
+После оптимизации время выполнение запроса сократилось в ~2.4 раза
 
