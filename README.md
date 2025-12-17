@@ -246,11 +246,11 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 
 ## Оптимизация
 
-### Анализ до оптимизации
+### Анализ производительности запроса до оптимизации
 
 ![до](https://github.com/user-attachments/assets/baa6b5f5-bb55-4071-9206-b4188e05e445)
 
-### Анализ после оптимизации
+### Анализ производительности запроса после оптимизации
 
 ![после](https://github.com/user-attachments/assets/b3f736a9-435d-48aa-a4d9-372cff6da41c)
 
@@ -275,5 +275,6 @@ ID_предмета (INT FOREIGN KEY) - ссылка на предмет
 ## Проверка
 
 ![проверка](https://github.com/user-attachments/assets/ebc83f82-0692-438c-af54-8bb81d78057c)
+
 
 
